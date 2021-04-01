@@ -9,7 +9,11 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
+<<<<<<< HEAD
       
+=======
+      msg: 'Welcome to our Tourist app'
+>>>>>>> main
     }
   }
 }
