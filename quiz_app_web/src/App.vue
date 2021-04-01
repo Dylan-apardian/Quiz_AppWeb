@@ -1,22 +1,14 @@
 <template >
   <div id="app">
-    <img src="./assets/CoolClips_peop3452.png" align= "top" >
-    <Destins arriver ='Paris' sortir='Montréal' date='23-06-2021'/>
-    <Header/>
-    <HelloWorld/>
-    <Destin/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-
-import Destins from './pages/Destin.vue'
-import HelloWorld from './components/HelloWorld.vue'
-import Destin from './components/Destin.vue'
 import Header from './components/Header.vue'
-
+import Apropos from './components/Apropos.vue'
 export default {
-  components: {HelloWorld, Destin, Header},
+  components: {Header, Apropos},
   name: 'App'
 }
 </script>
