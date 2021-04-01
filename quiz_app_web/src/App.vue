@@ -1,18 +1,15 @@
 <template >
   <div id="app">
-    <img src="./assets/CoolClips_peop3452.png" align= "top" >
-    <Destins arriver ='Paris' sortir='Montréal' date='23-06-2021'/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-
-import Destins from './pages/Destin.vue'
+import Header from './components/Header.vue'
+import Apropos from './components/Apropos.vue'
 export default {
-  name: 'App',
-  components: {
-    Destins
-  }
+  components: {Header, Apropos},
+  name: 'App'
 }
 </script>
 
@@ -23,6 +20,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
