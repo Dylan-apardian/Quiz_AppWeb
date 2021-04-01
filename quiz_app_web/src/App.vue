@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/> 
+    <HelloWorld/>
     <Destin/>
   </div>
 </template>
@@ -10,8 +10,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Destin from './components/Destin.vue'
 export default {
-  
-  components: { HelloWorld,Destin },
+  components: {HelloWorld, Destin},
   name: 'App'
 }
 </script>
