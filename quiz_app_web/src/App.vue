@@ -1,17 +1,18 @@
-<template>
+<template >
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-    <Destin/>
+    <img src="./assets/CoolClips_peop3452.png" align= "top" >
+    <Destins arriver ='Paris' sortir='Montréal' date='23-06-2021'/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Destin from './components/Destin.vue'
+
+import Destins from './pages/Destin.vue'
 export default {
-  components: {HelloWorld, Destin},
-  name: 'App'
+  name: 'App',
+  components: {
+    Destins
+  }
 }
 </script>
 
