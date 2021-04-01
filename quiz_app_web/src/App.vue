@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <Header/>
     <HelloWorld/>
     <Destin/>
   </div>
@@ -9,8 +9,9 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Destin from './components/Destin.vue'
+import Header from './components/Header.vue'
 export default {
-  components: {HelloWorld, Destin},
+  components: {HelloWorld, Destin, Header},
   name: 'App'
 }
 </script>
@@ -22,6 +23,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
