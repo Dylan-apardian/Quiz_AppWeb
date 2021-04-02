@@ -1,0 +1,5 @@
+Voici les commandes pour faire fonctionner le programme:
+
+(S'assurer d'etre dans le repertoire 'quiz_app_web')
+- npm install --save vue-resources
+- npm install -g json-server
