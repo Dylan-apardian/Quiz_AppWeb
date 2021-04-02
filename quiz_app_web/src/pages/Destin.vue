@@ -2,7 +2,7 @@
   <div class="page">
     <div class="content">
       <DestinListe v-on:selected='setSelected($event)'/>
-      <DestinDetails :destin='selectDestin'/>
+      <DestinDetails :destin='selectedDestin'/>
     </div>
   </div>
 </template>
@@ -17,11 +17,11 @@ export default {
       selectedDestin: {}
     }
   },
-  components: { DestinListe, DestinDetails },
+  components: {DestinListe, DestinDetails},
 
   methods: {
-    setSelected (_selectDestin) {
-      this.selectedDestin = _selectDestin
+    setSelected (_selectedDestin) {
+      this.selectedDestin = _selectedDestin
     }
   }
 }
