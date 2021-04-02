@@ -24,6 +24,7 @@
   background-color: gray;
   display: flex;
   flex-direction: column;
+  margin-bottom: 150px;
 }
 
 h1 {
