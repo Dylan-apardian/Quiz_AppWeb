@@ -1,0 +1,39 @@
+{
+  "destins": [
+    {
+      "id": 1,
+      "arriver": "Paris",
+      "sortir": "Montreal",
+      "date": "23-06-2021"
+    },
+    {
+      "id": 2,
+      "arriver": "Londre",
+      "sortir": "Montreal",
+      "date": "01-06-2021"
+    },
+    {
+      "id": 3,
+      "arriver": "Munich",
+      "sortir": "Montreal",
+      "date": "17-05-2021"
+    }
+  ],
+  "details": [
+    {
+      "id": "1",
+      "durée": "une semaine",
+      "prix": "2000$/personne"
+    },
+    {
+      "id": "2",
+      "durée": "Trois jours",
+      "prix": "1000$/personne"
+    },
+    {
+      "id": "3",
+      "durée": "deux semaines",
+      "prix": "3000$/personne"
+    }
+  ]
+}

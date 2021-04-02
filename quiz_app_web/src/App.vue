@@ -1,21 +1,18 @@
 <template >
   <div id="app">
-    <img src="./assets/CoolClips_peop3452.png" align= "top" >
-    <Destins arriver ='Paris' sortir='Montréal' date='23-06-2021'/>
+    <img src="./assets/CoolClips_peop3452.png" >
+    <Destin arriver ='Paris' sortir='Montreal' date='23-06-2021'/>
   </div>
 </template>
 
 <script>
 
-import Destins from './pages/Destin.vue'
+import Destin from './pages/Destin'
 export default {
   name: 'App',
-  components: {
-    Destins
-  }
+  components: { Destin }
 }
 </script>
-
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
