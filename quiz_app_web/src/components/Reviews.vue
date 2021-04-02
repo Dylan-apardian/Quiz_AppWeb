@@ -7,7 +7,7 @@
     <div class="containerCommentaire">
       <div class="utilisateur">
         <img src="../assets/utilisateur-1.jpg" width="100" height="100px">
-        <p><strong>Ralph W</strong> a écrit le 22 mars 2010</p>
+        <p><strong>Étienne B</strong> a écrit le 22 mars 2010</p>
       </div>
       <div class="commentaire">
         <h1>Éxpérience Extraordinaire</h1>
