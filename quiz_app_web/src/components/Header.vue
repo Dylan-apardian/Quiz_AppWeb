@@ -4,10 +4,10 @@
             <h1>{{nomSite}}</h1>
                 <nav>
                     <ul>
-                        <li>{{page.accueil}}</li>
-                        <li>{{page.destinations}}</li>
-                        <li>{{page.reviews}}</li>
-                        <li>{{page.aPropos}}</li>
+                        <li><router-link to="/">{{page.accueil}}</router-link></li>
+                        <li><router-link to="destination">{{page.destinations}}</router-link></li>
+                        <li><router-link to="reviews">{{page.reviews}}</router-link></li>
+                        <li><router-link to="apropos">{{page.aPropos}}</router-link></li>
                     </ul>
                 </nav> 
         </header>    
@@ -43,13 +43,30 @@ export default {
 }
 </script>
 
+ <!-- <div class="entete">
+    <header>
+      <h1>DhafVoyage</h1>
+      <nav>
+        <ul>
+          <li><router-link to="/">Accueil</router-link></li>
+          <li><router-link to="destination">Destinations</router-link></li>
+          <li><router-link to="reviews">Reviews</router-link></li>
+          <li><router-link to="apropos">A propos</router-link></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+</template> -->
+
 <style scoped>
 * {
-    margin: 10 auto;
-    padding: 0 10px;
+  margin: 10 auto;
+  padding: 0 10px;
 }
 
 .entete {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 0;
     left: 0;
@@ -98,10 +115,10 @@ nav {
 }
 
 nav ul li {
-    display: inline-block; 
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-right: 80px; 
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 80px;
 }
 
 footer

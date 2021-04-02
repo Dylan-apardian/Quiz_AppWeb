@@ -1,17 +1,31 @@
 <template>
   <div class="destinDetails">
       <h1>Détails de la Destination</h1>
-      <ul>
-          <li>{{ destin.arriver}}</li>
-          <li>{{ destin.sortir}}</li>
-          <li>{{ destin.date}}</li>
+      <ul v-for=' destin in destins' :key=destin.arriver>
+          <li>ID:{{ destin.arriver}}</li>
+          <li>Durée:{{ destin.sortir}}</li>
+          <li>Prix:{{ destin.date}}</li>
       </ul>
+      <button @click='addDetail'> voir les Details </button>
     </div>
 </template>
 
 <script>
 export default {
-  props: ['destin']
+  data () {
+    return {
+      destins: []
+    }
+  },
+  props: ['destin'],
+  methods: {
+    addDetail () {
+      this.destins.push({
+        arriver: '1',
+        sortir: 'Une semaine',
+        date: '2000$/ personne'
+      })
+    }}
 }
 </script>
 
