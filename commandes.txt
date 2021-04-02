@@ -1,0 +1,12 @@
+Voici les commandes pour faire fonctionner le programme:
+
+(S'assurer d'etre dans le repertoire 'Quiz_AppWeb')
+- npm install -g vue-cli
+
+(S'assurer d'etre dans le repertoire 'quiz_app_web')
+- npm install --save vue-resources
+- npm install -g json-server
+
+Pour demarrer le programme:
+(S'assurer d'etre dans le repertoire 'quiz_app_web')
+- npm run start
