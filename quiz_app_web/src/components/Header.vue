@@ -4,18 +4,13 @@
       <h1>DhafVoyage</h1>
       <nav>
         <ul>
-          <li><router-link to="accueil">Accueil</router-link></li>
-          <li><router-link to="destinations">Destinations</router-link></li>
+          <li><router-link to="/">Accueil</router-link></li>
+          <li><router-link to="destination">Destinations</router-link></li>
           <li><router-link to="reviews">Reviews</router-link></li>
           <li><router-link to="apropos">A propos</router-link></li>
         </ul>
       </nav>
     </header>
-
-    <section id="main-image">
-      <h2><strong>Organisez votre voyage sur mesure</strong></h2>
-      <a>Voir les commentaires</a>
-    </section>
   </div>
 </template>
 
@@ -27,6 +22,8 @@
 
 #entete {
   background-color: gray;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
