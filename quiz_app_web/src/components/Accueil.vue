@@ -19,14 +19,14 @@ export default {
   data () {
     return {
       backgroundUrl,
-      nomSite: 'DhafVoyage', 
+      nomSite: 'DhafVoyage',
       message: 'Explorez le meilleur site de tourisme jamais conçu',
       copyright: 'Copyright © 2021. Tous droits réservés.'
-    };
+    }
   },
   components: {
     'app-header': Header
-  } 
+  }
 }
 </script>
 

@@ -20,7 +20,7 @@ export default {
   data () {
     return {
       page: {
-        nomSite: 'DhafVoyage',  
+        nomSite: 'DhafVoyage',
         accueil: 'Accueil',
         destinations: 'Destinations',
         reviews: 'Reviews',
